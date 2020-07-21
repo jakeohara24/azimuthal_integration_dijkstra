@@ -7,8 +7,8 @@ from scipy.sparse.csgraph import dijkstra
 import math
 import pprint
 
-file = 'd25_CeO2-00000.tif'
-img = fabio.open(file).data
+#file = 'd25_CeO2-00000.tif'
+#img = fabio.open(file).data
 
 
 #Creates random numpy array for testing
