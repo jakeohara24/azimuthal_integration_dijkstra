@@ -70,7 +70,7 @@ def big_function(image):
 
     def getadjacent_pixels(x, y):
         good_list = []
-        a_p = (x-1, y), (x, y-1), (x+1, y), (x, y+1), (x-1, y-1), (x+1, y+1), (x-1, y+1), (x+1, y-1)
+        a_p = (x-1, y), (x, y-1), (x+1, y), (x, y+1)
         
         for px, py in a_p:
             if 0 <= px < width_img:
