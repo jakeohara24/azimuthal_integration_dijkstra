@@ -85,14 +85,14 @@ def big_function(image):
         shortest_path_point_dictionaries.update({edge_starting_point: []})
     
 
-    pixels_to_visit = [(np.ceil(height_img/2), np.ceil(width_img/2))]
+    pixels_to_visit = [(np.floor(height_img/2), np.floor(width_img/2))]
     
     every_single_pixel_dictionary = {}
     for y in range(height_img) and range (height_bool):
         for x in range(width_img) and range(width_bool):
             every_single_pixel_dictionary.update({(x, y): [math.inf, []]})
     
-    center_pixel = (np.ceil(height_img/2), np.ceil(width_img/2))
+    center_pixel = (np.floor(height_img/2), np.floor(width_img/2))
     every_single_pixel_dictionary[center_pixel] = [both_dict[center_pixel][1], [center_pixel]]
     
     while len(pixels_to_visit) > 0:
