@@ -7,7 +7,7 @@ from azimuthal_integration_dijkstra import Dijkstra
 
 def main():
 
-    small_image = np.random.rand(100, 100)
+    small_image = np.random.rand(500, 500)
     t0 = time.time()
     path_list = Dijkstra.big_function(small_image)
     t1 = time.time()
