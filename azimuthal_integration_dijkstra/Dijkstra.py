@@ -37,8 +37,8 @@ def big_function(image):
         height, width = image.shape
         edge_pixels = []
         edge_pixels.extend([(0, y) for y in range(height)])
-        edge_pixels.extend([(x, height_img) for x in range(width)])
-        edge_pixels.extend([(width_img, y) for y in range(height)])
+        edge_pixels.extend([(x, (height_img-1)) for x in range(width)])
+        edge_pixels.extend([((width_img-1), y) for y in range(height)])
         edge_pixels.extend([(x, 0) for x in range(width)])
         #print("These are the edges of your image", edge_pixels)
         return edge_pixels
