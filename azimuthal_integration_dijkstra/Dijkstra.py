@@ -160,7 +160,7 @@ def big_function(image):
             #print("The lowest intensity path to get from center to the edge", q, "is", every_single_pixel_dictionary[q])
             
     #This list contains the final paths
-    print(final_paths_list)
+    #print(final_paths_list)
     
             #print("The lowest intensity path to get from center to the edge", q, "is", every_single_pixel_dictionary[q])
     return final_paths_list
