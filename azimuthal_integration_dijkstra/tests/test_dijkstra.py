@@ -1,6 +1,5 @@
 import numpy as np
 import pprint
-import fabio
 
 import azimuthal_integration_dijkstra.Dijkstra as dijkstra
 
