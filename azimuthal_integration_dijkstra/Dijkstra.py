@@ -7,7 +7,6 @@ from scipy.sparse.csgraph import dijkstra
 import math
 import pprint
 
-#testing this out
 
 #file = 'd25_CeO2-00000.tif'
 #img = fabio.open(file).data
