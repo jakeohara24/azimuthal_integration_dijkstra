@@ -141,6 +141,6 @@ def big_function(image):
 
     masked = [[1*bools[y][x] for x, pixel in enumerate(image_row)] for y, image_row in enumerate(image)]
       
-    return masked, best_path
+    return masked
     
 
