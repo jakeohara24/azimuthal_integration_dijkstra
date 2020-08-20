@@ -140,8 +140,7 @@ def big_function(image):
     bools = [[not (i, j) in point_set for i in range(height_img)] for j in range(width_img)]
 
     masked = [[1*bools[y][x] for x, pixel in enumerate(image_row)] for y, image_row in enumerate(image)]
-
-    print('hi')        
+      
     return masked
     
 
