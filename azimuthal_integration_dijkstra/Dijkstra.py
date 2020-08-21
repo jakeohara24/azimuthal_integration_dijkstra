@@ -8,7 +8,7 @@ import math
 import pprint
 
 
-def big_function(image):
+def dijkstra_paths(image):
     #Make your own bool array, which will correspond to the bools in the intensity array
     bool_array = np.broadcast_to(False, image.shape)
 
